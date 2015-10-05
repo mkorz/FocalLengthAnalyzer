@@ -1,0 +1,37 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "FocalLengthAnalyzer Console Application",
+  "authors": [ "Marcin" ],
+  "tags": [ "exif", "focal length" ],
+  "projectUrl": "https://github.com/mkorz/FocalLengthAnalyzer",
+  "licenseUrl": "http://www.gnu.org/licenses/",
+
+  "compilationOptions": {
+    "warningsAsErrors": true,
+      "define": ["NOPERSISTENTREADER","NOPARALLEL","NOMEMORYREADER" ] 
+  },
+      
+  "commands": {
+    "FocalLengthAnalyzer": "FocalLengthAnalyzer"
+  },
+
+  "frameworks": {
+    "dnx451": {  
+    },
+    "dnxcore50": {
+      "dependencies": {
+        "Microsoft.CSharp": "4.0.0",        
+        "System.Console": "4.0.0-beta-23019",
+        "System.Linq": "4.0.0",
+        "System.Threading": "4.0.10",
+        "System.IO": "4.0.10",
+        "System.IO.FileSystem": "4.0.0",
+        "System.Collections.Concurrent": "4.0.10",
+        "System.Threading.Tasks.Parallel": "4.0.0",
+         "System.Collections": "4.0.10",
+        "System.Data.Common": "4.0.0",
+        "System.Reflection": "4.0.10"
+      }
+    }
+  }
+}

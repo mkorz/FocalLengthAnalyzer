@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FocalLengthAnalyzer": {
+      "commandName": "FocalLengthAnalyzer",
+      "commandLineArgs": "C:\\PHOTOS"
+    }
+  }
+}
