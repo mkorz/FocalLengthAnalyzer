@@ -7,7 +7,7 @@ namespace FocalLengthAnalyzer
 {
     public class Program
     {
-        public void Main(string[] args)
+        public static void Main(string[] args)
         {      
            if (args.Count()<1) {
                 Console.WriteLine("Please pass the path to the directory with jpeg files as the first argument.");
